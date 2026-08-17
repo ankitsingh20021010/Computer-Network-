@@ -465,4 +465,223 @@ HTTP     → Port 80
 HTTPS    → Port 443
 TCP/IP   → Internet Protocol Model
 Bob Kahn + Vint Cerf → Major contributors to TCP/IP
+
+______________________________________________________________________
+
+
+# Types of Network Topology
+
+## What is Network Topology?
+
+**Network Topology** refers to the physical or logical arrangement of devices such as computers, switches, routers, and other network devices in a network.
+
+There are two main types:
+
+* **Physical Topology** – How devices and cables are physically connected.
+* **Logical Topology** – How data flows between devices.
+
+---
+
+## 1. Bus Topology
+
+In **Bus Topology**, all devices are connected to a single main cable called the **Backbone Cable**.
+
+### Features
+
+* Uses a single backbone cable.
+* Easy to install for small networks.
+* Requires less cable.
+* If the backbone cable fails, the entire network can be affected.
+
+### Example
+
+```text
+Computer ── Computer ── Computer ── Computer
+              |
+        Main Backbone
+```
+
+---
+
+## 2. Star Topology
+
+In **Star Topology**, all devices are connected to a central device such as a **Switch or Hub**.
+
+### Features
+
+* Easy to install and manage.
+* Failure of one cable affects only one device.
+* Failure of the central device can affect the entire network.
+* Commonly used in modern LAN networks.
+
+### Example
+
+```text
+             Computer
+                 |
+Computer ─── Switch ─── Computer
+                 |
+             Computer
+```
+
+---
+
+## 3. Ring Topology
+
+In **Ring Topology**, every device is connected to two other devices, forming a circular structure.
+
+### Features
+
+* Data travels around the ring.
+* Each device has two connections.
+* Failure of one connection can affect the network.
+* Can provide predictable data transmission.
+
+### Example
+
+```text
+Computer ── Computer
+   |           |
+Computer ── Computer
+```
+
+---
+
+## 4. Mesh Topology
+
+In **Mesh Topology**, devices are connected to multiple or all other devices.
+
+### Types
+
+### Full Mesh
+
+Every device is directly connected to every other device.
+
+### Partial Mesh
+
+Some devices are connected to multiple devices, but not every device is directly connected.
+
+### Features
+
+* Very reliable.
+* Provides multiple paths for data.
+* Expensive because it requires more cables and connections.
+* Used where high reliability is important.
+
+### Example
+
+```text
+Computer ───── Computer
+   |\           /|
+   | \         / |
+   |  \       /  |
+   |   \     /   |
+Computer ───── Computer
+```
+
+---
+
+## 5. Tree Topology
+
+**Tree Topology** is a hierarchical topology that combines characteristics of **Star and Bus Topology**.
+
+### Features
+
+* Has a hierarchical structure.
+* Easy to expand.
+* Suitable for large networks.
+* Failure in the main/root connection can affect multiple devices.
+
+### Example
+
+```text
+              Main Switch
+              /         \
+        Switch           Switch
+       /     \          /     \
+   Computer Computer Computer Computer
+```
+
+---
+
+## 6. Hybrid Topology
+
+**Hybrid Topology** is a combination of two or more different network topologies.
+
+For example:
+
+* Star + Bus
+* Star + Ring
+* Star + Mesh
+
+### Features
+
+* Flexible and scalable.
+* Can be designed according to network requirements.
+* More complex to design and maintain.
+* Commonly used in large organizations.
+
+### Example
+
+```text
+       Star Network
+          /   \
+      Computer Computer
+          |
+      Main Network
+          |
+       Ring Network
+      /    |     \
+ Computer Computer Computer
+```
+
+---
+
+## 7. Point-to-Point Topology
+
+In **Point-to-Point Topology**, two devices are directly connected to each other.
+
+### Features
+
+* Simple connection.
+* High-speed communication.
+* Used between two network devices.
+* Easy to configure.
+
+### Example
+
+```text
+Computer A ───────── Computer B
+```
+
+---
+
+# Comparison of Network Topologies
+
+| Topology       | Structure            | Cost        | Reliability | Common Use             |
+| -------------- | -------------------- | ----------- | ----------- | ---------------------- |
+| Bus            | Single Backbone      | Low         | Low         | Small/old networks     |
+| Star           | Central Switch/Hub   | Medium      | High        | LAN                    |
+| Ring           | Circular             | Medium      | Medium      | Specialized networks   |
+| Mesh           | Multiple Connections | High        | Very High   | Critical networks      |
+| Tree           | Hierarchical         | Medium/High | High        | Large networks         |
+| Hybrid         | Combination          | High        | High        | Large organizations    |
+| Point-to-Point | Direct Connection    | Low         | High        | Device-to-device links |
+
+---
+
+# Advantages of Network Topology
+
+* Helps organize network devices.
+* Makes network design easier.
+* Helps identify connection problems.
+* Determines network performance and reliability.
+* Helps in network expansion and maintenance.
+
+# Conclusion
+
+Network topology defines how devices are connected and how data moves through a network. **Star, Bus, Ring, Mesh, Tree, Hybrid, and Point-to-Point** are the major types of network topology.
+
+> **Most commonly used in modern LANs:** Star Topology.
+
 ```
