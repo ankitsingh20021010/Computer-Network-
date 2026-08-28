@@ -31,7 +31,7 @@ It allows applications such as web browsers, email clients and file transfer pro
 ### Main Functions
 
 * Provides network services to applications.
-* Allows users to access network resources.
+* Allows users to access network.  resources.
 * Supports web browsing, email and file transfer.
 * Provides services such as HTTP, FTP and DNS.
 
