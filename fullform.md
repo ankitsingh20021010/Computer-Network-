@@ -7,7 +7,7 @@
 * **MAN** → Metropolitan Area Network
 * **PAN** → Personal Area Network
 * **WLAN** → Wireless Local Area Network
-* **VPN** → Virtual Private Network
+* **VPN** → Virtual  Private Network
 * **VLAN** → Virtual Local Area Network
 * **SAN** → Storage Area Network
 
