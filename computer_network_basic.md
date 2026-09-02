@@ -12,7 +12,7 @@ Computer B  ─────┼──── Switch ──── Router ───�
 Computer C  ─────┘
 ```
 
-Network mein computers ke alawa smartphones, servers, printers, routers, switches, IoT devices etc. bhi connected ho sakte hain.
+Network mein computers ke alawa smartphones, servers, printers, routers, switches, IoT devices etc. bhi connected ho sakte hain. .
 
 Computer Networks ko samajhne ke liye humein kuch core concepts pata hone chahiye:
 
