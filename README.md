@@ -6,7 +6,7 @@
 
 The OSI Model has **7 layers**. Each layer performs a specific function and communicates with the layer above and below it.
 
-### OSI Model – 7 Layers
+### OSI Model – 7 Layers 
 
 | Layer No. | Layer Name   | Main Function                                | Examples / Protocols    |
 | --------- | ------------ | -------------------------------------------- | ----------------------- |
