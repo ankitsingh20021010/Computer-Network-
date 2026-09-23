@@ -7,7 +7,7 @@ Example:
 ```text
 Computer A  ─────┐
                  │
-Computer B  ─────┼──── Switch ──── Router ──── Internet
+Computer B  ─────┼──── Switch ──── Router ──── Internet.  
                  │
 Computer C  ─────┘
 ```
