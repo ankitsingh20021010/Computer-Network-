@@ -90,7 +90,7 @@ The Session Layer is responsible for **establishing, managing and terminating co
 * Provides synchronization during communication.
 
 ### Examples
-
+ 
 * RPC
 * NetBIOS
 
