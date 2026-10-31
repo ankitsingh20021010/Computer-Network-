@@ -1,6 +1,6 @@
 # OSI Model and TCP/IP Model
 
-## 1. OSI Model
+## 1. OSI Model 
 
 **OSI (Open Systems Interconnection) Model** is a conceptual model used to understand how data is transmitted from one computer to another over a network.
 
